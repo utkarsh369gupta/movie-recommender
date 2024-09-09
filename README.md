@@ -28,3 +28,29 @@ Click the "Recommend" button to receive a list of similar movies based on a prec
 - The system loads movie data and a similarity matrix from pickle files.
 - For the selected movie, it computes movie similarities using cosine distance, and recommends the top 14 similar movies.
 
+## How to Run the Streamlit App
+
+### 1. Clone the Repository
+First, clone the repository to your local machine:
+
+```bash
+git clone https://github.com/your-repo/movie-recommender.git
+```
+
+### 2. Install Dependencies
+Navigate to the project directory and install the required dependencies using the requirements.txt file:
+
+```bash
+cd movie-recommender
+pip install -r requirements.txt
+```
+### 3. Run the Streamlit App
+To launch the Streamlit app, run the following command in your terminal:
+```bash
+streamlit run app.py
+```
+
+This will start a local server, and you'll see a URL where you can access the app, typically:
+http://localhost:8501/
+
+
